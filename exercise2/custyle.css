@@ -1,0 +1,39 @@
+.container{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.8);
+  text-align: center;
+  box-shadow: 0 15px 25px rgba(0,0,0,.9);
+  border-radius: 10px;
+}
+h1{
+  font-family: verdana;
+  color: white;
+  font-size: 45px;
+}
+p{
+  font-family: courier;
+  color: white;
+  font-size: 160%;
+}
+.submit{
+  background: none;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 10px 40px;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-size: 20px;
+}
+.submit:hover {
+  font-size: 17px;
+  background-image: linear-gradient(to right,#2ecc71 0%,#FFF36E 100%);
+}
+

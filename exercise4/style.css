@@ -1,0 +1,9 @@
+p,h1{
+  text-align: center;
+  font-family: courier;
+  font-size: 120%;
+}
+h1{
+  font-size: 300%;
+  padding: 40px;
+}
